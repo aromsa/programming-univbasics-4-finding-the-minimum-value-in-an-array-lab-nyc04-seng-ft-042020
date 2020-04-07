@@ -7,9 +7,9 @@ counter = 0
 min = nil
 while counter < array.length
   if min == nil
-    array[counter] < currentmin  
-    currentmin = array[counter]
+    array[counter] < min  
+    min = array[counter]
 end
 counter += 1
 end
-return currentmin
+min
