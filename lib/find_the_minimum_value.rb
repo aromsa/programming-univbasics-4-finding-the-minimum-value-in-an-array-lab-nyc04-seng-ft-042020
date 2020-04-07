@@ -3,7 +3,7 @@ def find_min_value(array)
   
   #array.min
   
-currentmin = nil
+min = nil
 while counter < array.size
   if currentmin == nil ||
     array[counter] < currentmin  
