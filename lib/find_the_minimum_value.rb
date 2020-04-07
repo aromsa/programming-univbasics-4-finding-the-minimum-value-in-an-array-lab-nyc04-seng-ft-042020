@@ -4,7 +4,7 @@ def find_min_value(array)
   #array.min
   
 min = nil
-while counter < array.size
+while counter < array.length
   if currentmin == nil ||
     array[counter] < currentmin  
     currentmin = array[counter]
