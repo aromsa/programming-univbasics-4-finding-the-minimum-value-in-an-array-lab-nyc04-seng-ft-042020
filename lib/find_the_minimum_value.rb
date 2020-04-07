@@ -2,6 +2,7 @@ def find_min_value(array)
   # Add your solution here
   
   #array.min
+  
 counter = 0  
 min = nil
 while counter < array.length
